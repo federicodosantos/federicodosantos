@@ -8,7 +8,7 @@ on:
 jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
